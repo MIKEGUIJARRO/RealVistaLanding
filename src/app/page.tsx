@@ -22,7 +22,7 @@ export default function Home() {
       <div className="navbar bg-base-100 sticky top-0 z-50 shadow-sm">
         <div className='container m-auto px-16'>
           <div className="navbar-start flex items-center">
-            <div className="dropdown">
+            {/* <div className="dropdown">
               <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
                 <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
               </div>
@@ -31,7 +31,7 @@ export default function Home() {
                 <li><a href='#results'>Resultados</a></li>
                 <li><a href='#prices'>Precios</a></li>
               </ul>
-            </div>
+            </div> */}
             <a href='#hero' className="btn btn-ghost text-md">RealVista</a>
           </div>
           <div className="navbar-center hidden lg:flex">
@@ -77,7 +77,7 @@ export default function Home() {
           <Subheading variant='subheading1'>
             Ellos confian en nosotros
           </Subheading>
-          <div className="flex justify-center space-x-8" style={{ filter: 'brightness(0%)' }}>
+          <div className="flex flex-col md:flex-row items-center justify-center space-y-8 md:space-y-0 md:space-x-8" style={{ filter: 'brightness(0%)' }}>
             <img src={tecLogo.src} />
             <img src={buildspaceLogo.src} />
           </div>
