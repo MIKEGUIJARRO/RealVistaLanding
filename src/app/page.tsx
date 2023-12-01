@@ -160,6 +160,7 @@ export default function Home() {
           </div>
           <div className='grid grid-cols-1 lg:grid-cols-3 gap-8 '>
             <PriceCard
+              key={'Card 1'}
               title='Básico'
               description='Perfecto para propiedades individuales'
               price='3,500'
@@ -174,6 +175,7 @@ export default function Home() {
               ]}
             />
             <PriceCard
+              key={'Card 2'}
               title='Mediano'
               description='Ideal para propiedades mas grandes'
               price='4,000'
@@ -188,6 +190,7 @@ export default function Home() {
               ]}
             />
             <PriceCard
+              key={'Card 3'}
               title='Grande'
               description='Perfecto para propiedades'
               price='5,000'
