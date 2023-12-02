@@ -66,7 +66,7 @@ export default function Home() {
           </div>
           {/* Browser - Video */}
           <MockupBrowser>
-            <video className='aspect-video' controls={false} autoPlay={true} muted={true} loop={true}>
+            <video className='aspect-video w-full h-auto' controls={false} autoPlay={true} muted={true} loop={true}>
               <source src='https://res.cloudinary.com/dzvqqr5hv/video/upload/v1701416532/walkthrough_ewypr2.mp4' type="video/mp4" />
             </video>
           </MockupBrowser>
